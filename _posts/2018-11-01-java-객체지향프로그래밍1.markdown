@@ -7,7 +7,7 @@ categories: java
 
 '자바의정석 스터디노트'
 
-##클래스와 객체
+## 클래스와 객체
 
 
 객체지향이론 관점에서 클래스의 정의 / 의미
@@ -49,7 +49,7 @@ ex) TV설계도(클래스)는 TV라는 제품(객체)를 정의 한 것이며, T
 인스턴스:  어떤 클래스로부터 만들어진 것인지를 강조하는 보다 구체적인 의미
 
 
-~~~
+'''java
 class Tv {
 
 String color;
@@ -71,7 +71,7 @@ void channel(){
 }
 
 }
-~~~
+'''
 
 
 인스턴스 생성
@@ -373,29 +373,5 @@ System.out.println(c1.a + c1.b + c1.c);
 
 
 생성자의 매개변수로 선언된 이름 a가 인스턴스 변수 a과 같을 경우 인스턴스변수 앞에 this 를 사용
-
 this는 참조변수로 인스턴스 자신을 가르킨다. 
 
-
-
-
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
-
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
-
-Jekyll also offers powerful support for code snippets:
-
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
-Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll’s dedicated Help repository][jekyll-help].
-
-
-[jekyll]:      http://jekyllrb.com
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-help]: https://github.com/jekyll/jekyll-help
